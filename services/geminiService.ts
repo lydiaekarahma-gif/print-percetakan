@@ -2,7 +2,9 @@ import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 
 const SHOP_CONTEXT = `
 Anda adalah asisten virtual "Admin Digital" untuk sebuah toko percetakan dan layanan digital.
-Informasi Toko berdasarkan gambar:
+Informasi Toko:
+- Lokasi: Bonggan RT 01/RW 09, Salatiga.
+- Kontak/WA: 08812853770.
 - Status: BUKA (OPEN)
 - Jam Operasional: 7 AM - 9 PM (07:00 - 21:00).
 - Layanan Utama:

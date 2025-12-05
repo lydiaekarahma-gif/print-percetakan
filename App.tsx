@@ -230,8 +230,14 @@ function App() {
             <div>
               <h4 className="font-bold text-white mb-4">Kontak</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
-                <li className="flex items-center gap-2"><MapPin size={16}/> Jl. Raya Utama No. 123</li>
-                <li className="flex items-center gap-2"><Smartphone size={16}/> +62 812-3456-7890</li>
+                <li className="flex items-start gap-2">
+                  <MapPin size={16} className="mt-1 shrink-0"/> 
+                  <span>Bonggan RT 01/RW 09, Salatiga</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Smartphone size={16}/> 
+                  <span>08812853770</span>
+                </li>
               </ul>
             </div>
 
